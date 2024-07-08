@@ -15,7 +15,8 @@ PKG_VERSION:=1.0.20220627
 PKG_RELEASE:=2
 
 PKG_SOURCE:=wireguard-linux-compat-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://git.zx2c4.com/wireguard-linux-compat/snapshot/
+PKG_SOURCE_URL:=https://git.zx2c4.com/wireguard-linux-compat/snapshot/ \
+		http://sources.buildroot.net/wireguard-linux-compat/
 PKG_HASH:=362d412693c8fe82de00283435818d5c5def7f15e2433a07a9fe99d0518f63c0
 
 PKG_LICENSE:=GPL-2.0
